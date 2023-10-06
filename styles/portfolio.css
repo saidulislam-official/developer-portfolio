@@ -188,3 +188,36 @@ main {
   margin-top: 50px;
   text-align: center;
 }
+/* contact styles */
+.contact {
+  display: flex;
+  gap: 117px;
+  background: #fff8f3;
+  margin-top: 130px;
+  height: 780px;
+}
+.contact .section-tittle {
+  text-align: left;
+  color: var(--Dark-01, #181818);
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 50%;
+  padding: 18px 30px;
+}
+.contact-icon,
+.contact-form {
+  margin-top: 130px;
+  margin-left: 30px;
+}
+.contact-descripotion {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
