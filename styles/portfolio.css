@@ -184,3 +184,7 @@ main {
 .resume .description {
   color: var(--Dark-03, #757575);
 }
+.resume-button {
+  margin-top: 50px;
+  text-align: center;
+}
