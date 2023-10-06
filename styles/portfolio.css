@@ -69,6 +69,7 @@ nav li {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
 /* main section */
 main {
   max-width: 1140px;
@@ -189,13 +190,20 @@ main {
   text-align: center;
 }
 /* contact styles */
+
 .contact {
   display: flex;
   gap: 117px;
-  background: #fff8f3;
   margin-top: 130px;
-  height: 780px;
+  margin-bottom: 30px;
 }
+
+main .contact {
+  width: 1296px;
+  height: 780px;
+  background: #fff8f3;
+}
+
 .contact .section-tittle {
   text-align: left;
   color: var(--Dark-01, #181818);
