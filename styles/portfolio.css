@@ -238,3 +238,37 @@ textarea {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+
+/*------------------
+    media screen 
+------------------*/
+@media screen and (max-width:576px){
+
+  .what-i-do{
+    align-items: center;
+    justify-content: center;
+  }
+  .skill-container{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  } 
+  .section-title{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    
+  }
+  .section-description {
+  
+    padding: 15px;
+    text-align: center;
+  } 
+}
+@media screen and (min-width:577px) and (max-width:992px){
+}
+
+.hide{
+  display: none;
+}
